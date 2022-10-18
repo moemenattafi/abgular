@@ -1,0 +1,34 @@
+.heroes{
+.h{
+  background-color:#3973ac;
+  color: white;
+  padding: 10px;
+  width: 30px;
+  border-radius:4px;
+}
+.b{
+  background-color:#e6e6e6;
+  color:gray;
+  width: 200px;
+  text-align: left;
+  border-radius:4px ;
+}
+
+}
+.heroes:hover{
+  transform: skew(-5deg);
+}
+button:hover{
+  color: aqua;
+}
+button{
+  color: aqua;
+}
+
+.heroes:active{
+  transform: skew(-5deg);
+}
+
+
+
+

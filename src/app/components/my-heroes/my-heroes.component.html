@@ -1,0 +1,12 @@
+<h2>My heroes</h2>
+<table>
+
+  <tr class="heroes" *ngFor="let hero of heroes;" >
+    <th class="h" (click)="selectedTab=hero.name" >{{hero.id}}</th>
+    <th class="b">{{hero.name}}</th>
+
+  </tr>
+</table>
+
+<h2> {{selectedTab}} is my Heeeeroooo!!!</h2>
+<button>View details</button>
